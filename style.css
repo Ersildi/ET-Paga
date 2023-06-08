@@ -1,0 +1,72 @@
+body {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
+}
+
+#header {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 0.8rem;
+  margin: 5px;
+}
+
+.pagetitle {
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  font-size: 22px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  outline: auto;
+  outline-color: blue !important;
+  background-color: #0068ad;
+  border-radius: 1.5rem;
+  padding: 5px;
+}
+
+.titlebox {
+  color: white;
+  width: 200px;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.box {
+  width: 200px;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 15px;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.enterbutton {
+  width: 200px;
+  margin: 5px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 1rem;
+}
+
+.sumbox {
+  width: 200px;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.clearbutton {
+  width: 200px;
+  margin: 5px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 1rem;
+}

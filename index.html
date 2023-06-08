@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Llogaritia e Pages</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="nav-bar">
+        <h2 class="pagetitle">Llogaritia E Pages</h2>
+      </div>
+    </header>
+
+    <section id="content">
+      <div class="container" id="content">
+        <span class="titlebox">Vendosni Pagen Mujore</span>
+        <input class="box" type="text" id="pagabaze" />
+
+        <span class="titlebox">Vendosni Turni 1</span>
+        <input class="box" type="text" id="turni1count" />
+
+        <span class="titlebox">Vendosni Turni 2</span>
+        <input class="box" type="text" id="turni2count" />
+
+        <span class="titlebox">Vendosni Turni 3</span>
+        <input class="box" type="text" id="turni3count" />
+
+        <span class="titlebox">Vendosni Sunday</span>
+        <input class="box" type="text" id="sundaycount" />
+
+        <span class="titlebox">Vendosni Oret Shtese</span>
+        <input class="box" type="text" id="oreshtesecount" />
+
+        <input
+          class="enterbutton"
+          type="button"
+          value="Llogarisni Shumen"
+          onclick="calc()"
+        />
+
+        <span class="titlebox">Paga Total Bruto</span>
+        <input class="sumbox" type="text" id="sum" readonly="readonly" />
+
+        <span class="titlebox">Paga Total Neto</span>
+        <input class="sumbox" type="text" id="sumneto" readonly="readonly" />
+
+        <input
+          class="clearbutton"
+          id="clearbutton"
+          type="button"
+          value="Clear"
+          onclick="clearFields()"
+        />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
